@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+        background:rgba(0, 0, 0, 0.918) url(bg2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.navbar{
+    background: linear-gradient(308deg, transparent , transparent -5%, #77ffd396);
+    color: white;
+    height: 5vh;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    justify-content: center;
+    padding-left:10px;
+}
+
+.container{
+    margin:158px auto;
+    width: 281px;
+    height: 44.5vh;
+    background:linear-gradient(360deg, transparent , transparent -24%, #77ffd396);
+    border-radius: 2px;
+
+}
+
+
+.list{
+    margin-top:22px;
+    display: flex;
+    flex-direction: column;
+}
+.input-list{
+    margin: 9px auto;
+    background: transparent;
+    width: 90%;
+    height: 24px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px white solid;
+    border-radius: 12px;
+    color:white;
+    text-align: center;
+    outline: none;
+    font-family: 'Cinzel', serif;
+}
+
+::placeholder{
+    color:white;
+}
+
+
+p{
+    font-family: 'Cinzel', serif;
+    margin-left: 36%;
+    padding-top: 12px;
+    font-size: 1.5em;
+    color: white;
+}
+
+button{
+    color:white;
+    border:1px white solid;
+    background:transparent;
+    border-radius:12px;
+    font-size:12px;
+    height:24px;
+    width:50%;
+    margin-top: 20px;
+    outline: none;
+    font-family: 'Cinzel', serif;
+
+}
+
+button:hover{
+    color:black;
+    background:lightblue;
+    border:none;
+    box-shadow:0 0 10px lightblue, 0 0 40px lightblue, 0 0 80px lightblue;
+}
+.text-footer{
+    background: linear-gradient(368deg, transparent , transparent -5%, #77ffd396);
+    color:white;
+    text-align: center;
+}
